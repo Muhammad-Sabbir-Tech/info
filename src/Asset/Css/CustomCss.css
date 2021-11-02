@@ -1,0 +1,30 @@
+@import "bootstrap.min.css";
+@import "HomeBannerCss.css";
+@import "rs-spacing.css";
+@import "style.css";
+@import "responsive.css";
+
+:root{
+    --themeColor : #070d59;
+}
+*{
+    scroll-behavior: smooth !important;
+}
+.myLogo{
+    width: 80px;
+}
+.navBg{
+    background: var(--themeColor);
+    color: white !important;
+}
+#collasible-nav-dropdown {
+    color: white;
+}
+.bannerGreeting{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+.getTouchContainer{
+    background-color: var(--themeColor);
+}
